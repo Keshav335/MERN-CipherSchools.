@@ -1,0 +1,22 @@
+/*p{
+    text-align: center;
+}
+#myPara{
+    text-align: center;
+}
+.center-paragraph{
+    text-align: center;
+}
+*/
+h1,.center-paragraph,p{
+    text-align: center;
+    color: brown;
+}
+
+
+/*
+
+*{
+    font-family:Arial;
+}
+*/
