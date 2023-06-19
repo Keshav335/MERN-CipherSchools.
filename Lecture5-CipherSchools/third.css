@@ -1,0 +1,14 @@
+/*Pseduo-class selector*/
+/*
+div~p:hover{
+    background-color: yellow; 
+ }*/
+ /*Pseuo-element selector*/
+ div~p::first-letter{
+    background-color: red;
+ }
+
+ /*Atribute selector*/
+ a[target]{
+    background-color: cyan;
+ }
