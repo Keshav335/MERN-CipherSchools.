@@ -1,0 +1,21 @@
+/*Decendent Selector*/
+/*div p{
+    background-color: yellow;
+}
+*/
+
+
+/*Child Selector*/
+/*div>p{
+    background-color: cyan;
+}*/
+
+/*Adjacent Sibling Selector*/
+/*div+p{
+    background-color: yellow;
+}*/
+
+/*General sibling selector*/
+div~p{
+   background-color: yellow; 
+}
