@@ -1,0 +1,27 @@
+1. to inclide semantic css:(include it in index.css)
+@import url("https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css");
+
+2.for javascript: (include it in index.html before <title> tag.)
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+
+--------------------------------------------------------------------------------
+till now [ToDoScreen.js]
+import { Component } from "react";
+class ToDoScreen extends Component{
+    render(){
+        return(
+            <h1 className="ui heading center">To Do List</h1>
+        )
+    }
+}
+export default ToDoScreen;
+---------------------------------------------------------------------------------
+  till now [App.js]
+import { Component } from "react";
+import ToDoScreen from "./screens/ToDoScreen";
+class App extends Component{
+    render(){
+        return <ToDoScreen/>;            
+    }
+}
+export default App;
