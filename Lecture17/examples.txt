@@ -1,0 +1,70 @@
+import './App.css';
+import { Component } from 'react';
+class App extends Component{
+  render(){
+    return(
+      <div>
+        <h1>This is Cipher Schools</h1>
+      </div>
+    )
+  }
+}
+
+export default App;
+
+-----------------------------------------------------
+import './App.css';
+import { Component } from 'react';
+class App extends Component{
+  name ="CipherSchools";
+  render(){
+    return(
+      <div>
+        <h1>This is {this.name}</h1>
+      </div>
+    )
+  }
+}
+
+export default App;
+-------------------------------------------------------------
+import './App.css';
+import { Component } from 'react';
+class App extends Component{
+  name ="CipherSchools";
+  render(){
+    return(
+      <>
+      <div>
+        <h1>This is {this.name}</h1>
+      </div>
+      <div>
+        <p>This is paragraph and name is :{this.name}</p>
+      </div>
+      </>
+    )
+  }
+}
+
+export default App;
+-----------------------------------------------------------------
+//calling the App in index.js 3 times
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+    <App />
+    <App />	
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
