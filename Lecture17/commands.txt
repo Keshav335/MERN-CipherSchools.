@@ -1,0 +1,6 @@
+npx create-react-app prac1 //to create a react app 
+
+npm start  // to start a react app
+
+cd prac1 //to change the folder
+
