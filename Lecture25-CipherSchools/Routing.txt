@@ -1,0 +1,34 @@
+[React Router] is a JavaScript framework that lets us handle client and server-side routing in React applications.It also allows us to use browser history features 
+while preserving the right application view.
+
+//------------------------------------------------------------
+App.js
+
+import { useState } from "react";
+import AddTask from "./components/AddTask";
+import ToDoScreen from "./screens/ToDoScreen";
+import { createBrowserRouter,RouterProvider} from "react-router-dom";
+/* class App extends Component{
+    render(){
+        return <ToDoScreen/>;
+            
+    }
+} */ 
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element:<ToDoScreen/>
+
+    },
+    {
+        path: "/add-task",
+        element:<AddTask/>
+    },
+])
+const App=()=>{
+    const [tasks,setTasks] =useState([]);
+    return <RouterProvider router={router}/>;
+}
+export default App;
+
+//--------------------------------------------------------------------------------------
