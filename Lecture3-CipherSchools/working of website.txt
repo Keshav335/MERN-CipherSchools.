@@ -1,0 +1,15 @@
+server: A server is a computer program or device that provides a service to another computer program and its user, also known as the client.
+example-> SMTP server, Web server, apache server,tomcat server
+ 
+client:browser
+
+request: for requesting the webpage(by browser to the server)
+
+response: Informatin provided by server to the client.
+
+DNS: Domain Name System
+
+A [session] is a group of user interactions with your website that take place within a given time frame. 
+
+
+
