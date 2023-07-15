@@ -1,0 +1,21 @@
+Events are things that happen in the system you are programming, which the system tells you about so your code can react to them.
+
+Events are fired inside the browser window, and tend to be attached to a specific item that resides in it. This might be a single element, a set of elements,
+the HTML document loaded in the current tab, or the entire browser window. There are many different types of events that can occur.
+
+For example:
+The user selects, clicks, or hovers the cursor over a certain element.
+The user chooses a key on the keyboard.
+The user resizes or closes the browser window.
+A web page finishes loading.
+A form is submitted.
+A video is played, paused, or ends.
+An error occurs.
+----------------------------------------------------------------------------------------------------------
+we can perform various operations on the basis of events:
+like:
+changing the size of text.
+changing the background color.
+alert box.
+Form submition.etc
+
