@@ -1,1 +1,46 @@
+MERN stack is a collection of technologies that enables faster application development. It is used by developers worldwide. The main purpose of using MERN stack is 
+to develop apps using JavaScript only. 
+
+MERN(M - MongoDB,E - ExpressJS,R - ReactJS,N - NodeJS)
+
+[MongoDB]:
+It is a source-available cross-platform document-oriented database . Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. 
+
+In MongoDB(tables=collections, rows = documents(BSON),Columns = fields)
+
+JSON(JavaScript Object Notation)
+BSON(Binary JavaScript Object Notation)
+
+MongoDB's document data model stores all related data together within a single document, making it much more flexible than the rigid structure of the relational 
+database model.
+
+We can store image,audio,video in MongoDB.
+
+[Express]:
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+
+Express.js is a small framework that works on top of Node.js web server functionality to simplify its APIs and add helpful new features. It makes it easier to 
+organize your application’s functionality with middleware and routing. It adds helpful utilities to Node.js HTTP objects and facilitates the rendering of dynamic 
+HTTP objects.
+
+[React]:
+It is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of 
+individual developers and companies.
+
+React is a library. It lets you put components together, but it doesn’t prescribe how to do routing and data fetching.
+
+[Node]:
+Node.js is an open-source, cross-platform JavaScript runtime environment.
+
+Node.js runs the V8 JavaScript engine, the core of Google Chrome, outside of the browser. This allows Node.js to be very performant.
+
+A Node.js app runs in a single process, without creating a new thread for every request. Node.js provides a set of asynchronous I/O primitives in its standard 
+library that prevent JavaScript code from blocking and generally, libraries in Node.js are written using non-blocking paradigms, making blocking behavior the 
+exception rather than the norm.
+
+
+
+
+
+
 
