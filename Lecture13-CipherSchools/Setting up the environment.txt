@@ -1,0 +1,10 @@
+download and install latest version of Node.js from official website[node.js] for windows/mac/linux.
+
+After installation open the terminal and write [node -v] => for checking node is installed correctly or not.
+this command will return the version of your node.js
+
+Then write command [npm -v ] to check the version of Node Package Manager.
+
+To create a react app : npx create-react-app app_name.
+
+Open the created project in VS-code
