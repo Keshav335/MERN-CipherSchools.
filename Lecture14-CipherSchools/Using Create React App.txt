@@ -1,0 +1,5 @@
+command to create new react app: npx create-react-app app_name
+
+command to change the diractory: cd app_name
+
+command to start react app: npm start
