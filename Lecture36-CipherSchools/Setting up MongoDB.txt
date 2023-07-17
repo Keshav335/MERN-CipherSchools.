@@ -1,0 +1,20 @@
+We can use MongoDB in two ways:
+1.Access MongoDB in your own machine(download and install).
+
+2.Free tear MongoDB database (Online) (For this we need to be connected with the internet).
+
+a.Create Your MongoDB Account.
+b.Sign in.
+c.Select the Shered Option(which is free)(you can use AWS,Google Cloude,Azure acording to your choice).
+d.AWS
+e.Region: Mumbai
+f.Click on create cluster button.
+------------------
+Now go to Network cluster:
+->Add ip address: write 0.0.0.0(for the entire world)(but it is not the safe practice).
+
+Now go to Your Database:
+->load sample data.
+->sample_geospatial(data base)
+->Ship wrecks(collection/table)
+->every row=record or document.
