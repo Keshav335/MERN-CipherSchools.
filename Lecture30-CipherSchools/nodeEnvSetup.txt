@@ -1,0 +1,22 @@
+create folders /node/math/src
+
+change diractory = 
+cd node
+cd math
+
+type command of initializing node project = npm init
+then answer the questions of terminal
+package math : yes
+version:(1.0.0)
+description : This is a test based app on math.
+entry point: app.js
+test command:
+git repository:
+keywords:
+author: Keshav Mahrshi
+License: ISC
+Is this Ok:(yes)
+
+
+
+
