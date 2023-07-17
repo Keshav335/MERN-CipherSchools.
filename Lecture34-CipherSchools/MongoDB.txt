@@ -1,0 +1,10 @@
+- MongoDB is a NoSQL, document-oriented database.
+- It stores data in JSON-like BSON format, which allows for flexible and dynamic schema.
+- It is designed for scalability and high-performance, making it suitable for large-scale applications.
+- MongoDB supports horizontal scaling through sharding, distributing data across multiple servers.
+- It provides powerful querying capabilities, including support for rich queries, indexing, and aggregation.
+- MongoDB's flexible schema allows for easy updates and changes to data structures without downtime.
+- It is commonly used in modern web development, big data, and real-time applications.
+- MongoDB is open-source and has a vibrant community with extensive documentation and support.
+- The database is written in C++ and supports various programming languages through drivers and APIs.
+- It offers strong data consistency and reliability, making it a popular choice for mission-critical applications.
