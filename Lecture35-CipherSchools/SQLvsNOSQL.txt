@@ -1,0 +1,25 @@
+SQL (Relational Databases) vs. NoSQL (Non-Relational Databases) Comparison:
+
+SQL (Relational Databases):
+1. Structure: Relational databases store data in tables with predefined schemas.
+2. Schema: Strict, predefined schema is required, and all data must adhere to it.
+3. Data Relationships: Relationships between tables are defined using foreign keys, ensuring data integrity.
+4. Transactions: ACID (Atomicity, Consistency, Isolation, Durability) properties guarantee data consistency.
+5. Query Language: SQL (Structured Query Language) is used to interact with the database and perform complex queries.
+6. Scalability: Vertical scaling is common, achieved by upgrading hardware to handle increased loads.
+7. Data Integrity: Ensured through relational constraints and the normalization process.
+8. Suitable Use Cases: Recommended for applications with structured and well-defined data, such as financial systems and ERP solutions.
+
+NoSQL (Non-Relational Databases):
+1. Structure: NoSQL databases use various data models like document-based, key-value, column-family, or graph-based.
+2. Schema: Schema flexibility allows for dynamic and unstructured data storage without a fixed schema.
+3. Data Relationships: Relationships between data are either implicit or managed externally, with no strict constraints.
+4. Transactions: NoSQL databases prioritize horizontal scalability and might sacrifice some ACID properties for better performance.
+5. Query Language: NoSQL databases have specific query languages (e.g., MongoDB's BSON query language), but not standardized like SQL.
+6. Scalability: Horizontal scaling is common, achieved by adding more servers to distribute the data and workload.
+7. Data Integrity: While some NoSQL databases provide eventual consistency, others prioritize availability and partition tolerance over strong consistency.
+8. Suitable Use Cases: Ideal for applications with rapidly changing data, unstructured data, or high-velocity data like social media, IoT, and real-time analytics.
+
+Ultimately, the choice between SQL and NoSQL databases depends on the specific requirements of the application, data structure, scalability needs, and the complexity 
+of queries. SQL databases excel in maintaining data integrity and handling complex queries, while NoSQL databases offer more flexibility and scalability for rapidly 
+evolving applications and large-scale distributed systems.
