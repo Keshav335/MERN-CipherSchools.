@@ -1,0 +1,14 @@
+JWT (JSON Web Token) in brief:
+
+- JWT is a compact and self-contained token used for securely transmitting information between parties.
+- It consists of three parts: header, payload, and signature.
+- The header specifies the token type and signing algorithm.
+- Payload contains data (claims) like user info and permissions.
+- The signature is generated using a secret key or public/private key pair.
+- JWT is stateless, reducing server-side storage needs.
+- Commonly used for authentication and authorization in web applications.
+- Should be transmitted over HTTPS for security.
+- Tokens can have expiration times.
+- Widely used in Single Sign-On (SSO) systems and APIs.
+- Validation involves verifying the signature and decoding the payload.
+
