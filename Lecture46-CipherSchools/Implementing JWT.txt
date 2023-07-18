@@ -1,0 +1,3 @@
+to use JWT in our project:
+npm i jsonwebtoken
+
