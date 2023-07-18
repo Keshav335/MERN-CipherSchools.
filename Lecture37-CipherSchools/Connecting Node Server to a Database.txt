@@ -5,10 +5,14 @@ In Online MongoDB dashboard
 ->Driver=Node.js
 ->version=5.5 or above
 
-notice: run the following command => npm install mongodb
+X notice: run the following command => npm install mongodb
 
 add your connection string into your application code = "   ass provided   "
 
 note: mogoose is the popular way of using MongoDB inside node applications.
+
+now in terminal : npm i mongoose
+
+
 
 
